@@ -1,0 +1,80 @@
+*{
+box-sizing: border-box;
+}
+@font-face {
+    font-family: 'bungeeSpice-regular';
+    src: url('./BungeeSpice-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    background:url('./images/smash-bg.jpg');
+}
+h1{
+    color: #da4b00;
+    border: 5px solid #000;
+    text-align: center;
+    width: 36%;
+    font-family: bungeeSpice-regular;
+    margin: 15px auto;
+    padding: 10px;
+    font-size: 40px;
+    border-radius: 5px;
+    font-style:italic;
+}
+#holes{
+    margin: 0 auto;
+    width: 73%;
+}
+.score{
+    font-size: 70px;
+    padding: 30px 100px;
+    border-radius: 10px;
+    height: 150px;
+    background: url(./images/grass.png) no-repeat;
+    font-family: bungeeSpice-regular;
+    background-position:15px 0;
+}
+.hole{
+    background: black;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 15px 10px 0;
+    display: inline-block;
+    background-size: contain;
+    cursor:url('./images/hammer.png'),auto;
+}
+.active{
+background: url(./images/happy.png) #cdde06;
+background-size: cover;
+background-position: 3px -10px;
+}
+.caught{
+background: url(./images/sad.png) #ff0000;
+background-size: contain;
+background-position: 3px 3px;
+}
+.score-li{text-align: center;}
+.score-li li{
+    display:inline-block;
+}
+.text-scr{
+    font-size: 50px;
+    font-family: 'bungeeSpice-regular';
+    background: #da4b00;
+    padding: 10px 50px;
+    border-radius: 8px;
+    font-style: italic;
+}
+.start-btn,.reset{
+    cursor:url('./images/hammer.png'),auto;
+    font-size: 50px;
+    font-family: 'bungeeSpice-regular';
+    background: #da4b00;
+    padding: 10px 50px;
+    border-radius: 8px;
+    font-style: italic;
+}
+.start-btn{margin-right:130px;}
+.reset{margin-left:130px;}
